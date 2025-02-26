@@ -8,9 +8,9 @@ import Sidebar from '../../../components/Sidebar';
 export default function UserDashboard() {
   const { user } = useAuth();
   const router = useRouter();
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
-  const [success, setSuccess] = useState(false);
+//   const [isLoading, setIsLoading] = useState(false);
+//   const [error, setError] = useState(null);
+//   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
    if (!user) {
